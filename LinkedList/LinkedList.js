@@ -1,6 +1,4 @@
-const printObject = (object) => {
-  console.log(JSON.stringify(object, null, 2));
-};
+const { printObject } = require("../common");
 
 class Node {
   constructor(value) {
