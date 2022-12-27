@@ -89,6 +89,7 @@ class LinkedList {
 
     this.head = newNode;
     this.length++;
+    return this;
   }
 
   /// WRITE UNSHIFT METHOD HERE ///
