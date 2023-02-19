@@ -12,14 +12,6 @@ class Stack {
     this.length = 1;
   }
 
-  printStack() {
-    let temp = this.top;
-    while (temp !== null) {
-      console.log(temp.value);
-      temp = temp.next;
-    }
-  }
-
   getTop() {
     if (this.top === null) {
       console.log("Top: null");

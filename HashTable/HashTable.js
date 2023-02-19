@@ -11,12 +11,6 @@ class HashTable {
     return hash;
   }
 
-  printTable() {
-    for (let i = 0; i < this.dataMap.length; i++) {
-      console.log(i, ": ", this.dataMap[i]);
-    }
-  }
-
   set(key, value) {
     let index = this._hash(key);
     if (!this.dataMap[index]) this.dataMap[index] = [];

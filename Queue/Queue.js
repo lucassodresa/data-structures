@@ -13,14 +13,6 @@ class Queue {
     this.length = 1;
   }
 
-  printQueue() {
-    let temp = this.first;
-    while (temp !== null) {
-      console.log(temp.value);
-      temp = temp.next;
-    }
-  }
-
   getFirst() {
     if (this.first === null) {
       console.log("First: null");

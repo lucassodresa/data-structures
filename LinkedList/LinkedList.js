@@ -13,14 +13,6 @@ class LinkedList {
     this.length = 1;
   }
 
-  printList() {
-    let temp = this.head;
-    while (temp !== null) {
-      console.log(temp.value);
-      temp = temp.next;
-    }
-  }
-
   getHead() {
     if (this.head === null) {
       console.log("Head: null");
